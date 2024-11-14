@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Individuals</title>
+    <link rel="stylesheet" href="assignment4.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-container">
+        <img src="./asset/sign.png" alt="For individuals" />
+        <h1>For Individuals</h1>
+        <p id="paragraph1">
+          Start benefitting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+        <p id="paragraph2">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+      </div>
+      <div class="form-container">
+        <form method="post" action="#">
+          <div class="flex">
+            <label for="firstname">
+              First Name
+              <input id="firstname" type="text" class="inputHalf" />
+            </label>
+
+            <label for="lastname">
+              Last Name
+              <input id="lastname" type="text" class="inputHalf" />
+            </label>
+          </div>
+          <div class="flex">
+            <label
+              >Gender
+              <select class="inputHalf">
+                <option selected hidden>Select here</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </label>
+
+            <label for="date"
+              >Date of Birth
+              <input
+                id="date"
+                type="date"
+                class="inputHalf"
+                placeholder="Select here"
+              />
+            </label>
+          </div>
+
+          <div class="flex">
+            <label for="Weight"
+              >Weight(KG)
+              <input
+                id="weight"
+                type="text"
+                class="inputHalf"
+                placeholder="Enter weight"
+              />
+            </label>
+
+            <label for="height"
+              >Height(CM)
+              <input
+                id="height"
+                type="text"
+                class="inputHalf"
+                placeholder="Enter height "
+              />
+            </label>
+          </div>
+
+          <div class="flex">
+            <label
+              >Activity Level
+              <select class="inputHalf">
+                <option selected hidden>Select here</option>
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Professional</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="flex">
+            <label for="password"
+              >Password <br />
+              <input id="password" type="password" class="inputHalf" />
+            </label>
+          </div>
+
+          <div class="flex">
+            <input
+              type="button"
+              value="Register"
+              class="button"
+              button
+              type="submit"
+            />
+          </div>
+          <p class="form-text">
+            By clicking Register, you agree to our
+            <a href="#">Term of Use</a>and our <a href="#"> Privacy Policy</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
