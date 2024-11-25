@@ -435,7 +435,6 @@ h6 {
       position: relative;
 
       &::after {
-        content: url("./assets/images/Vector\ 3.png");
         display: inline-block;
         -webkit-margin-before: 24px;
         margin-block-start: 24px;
@@ -508,7 +507,7 @@ h6 {
   -webkit-margin-before: 40px;
   margin-block-start: 40px;
   max-width: 700px;
-  background-image: url("./assets/images/Blob-min-2.png");
+  /* background-image: url("./assets/images/Blob-min-2.png"); */
   background-repeat: no-repeat;
   background-size: contain;
   padding-inline: 32px;
@@ -557,7 +556,6 @@ h6 {
 .hero-footer {
   -webkit-margin-before: 56px;
   margin-block-start: 56px;
-  background-image: url("./assets/images/Rectangle\ background-min.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -652,11 +650,6 @@ h6 {
     padding-inline-start: 1rem;
     font-weight: 700;
     position: relative;
-
-    /* Alternative Border */
-    /* border-inline-start: 5px solid;
-    border-image-source: linear-gradient(to bottom, #112232, #fff);
-    border-image-slice: 1; */
 
     &::before {
       content: "";
@@ -1052,7 +1045,6 @@ form p {
   padding-block: 3rem;
   position: relative;
   overflow: hidden;
-  background-image: url(./assets/images/FAQs\ background.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1193,7 +1185,6 @@ form p {
 /* Footer Section */
 
 footer {
-  /* background-image: url(./asset/background-img.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
